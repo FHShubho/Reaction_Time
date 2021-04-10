@@ -33,7 +33,7 @@ const Home = () => {
         else if(earlyClick) {
             setBgColor('#778899');
             setShowMesage('Too early!');
-            setShowMesage2('Click to try again 🤷‍♂️')
+            setShowMesage2('Click to try again 🤷‍♂️');
             setEarlyClick(false);
             clearTimeout();
             console.log(earlyClick, stageTwoState);
