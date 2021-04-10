@@ -129,28 +129,33 @@ body {
 }
 
 #score_card {
+  width:600px;
+  margin:0 auto;
+}
+
+#left_col {
   font-family: 'Bree Serif', serif;
-  border-collapse: collapse;
-  /* width: 100%; */
-}
-
-#score_card td, #score_card th {
-  border: 2px solid #ddd;
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
-/* #score_card tr:nth-child(even){background-color: #f2f2f2;} */
-
-
-#score_card th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: rgba(0,0,0, 0.2);
-  color: white;
-  height: fit-content;
+  font-size: large;
+  line-height: 1.6;
+  float:left;
+  width:300px;
   text-align: center;
 }
+
+#right_col {
+  font-family: 'Bree Serif', serif;
+  font-size: large;
+  line-height: 1.6;
+  float:right;
+  width:300px;
+  text-align: center;
+}
+
+#left_col h2 {
+  margin-bottom: 0px;
+}
+
+#right_col h2 {
+  margin-bottom: 0px;
+}
+
