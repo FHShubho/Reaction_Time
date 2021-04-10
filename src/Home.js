@@ -36,8 +36,8 @@ const Home = () => {
             setShowMesage2('Click to try again 🤷‍♂️');
             setEarlyClick(false);
             clearTimeout();
-            console.log(earlyClick, stageTwoState);
-            var highestTimeoutId = setTimeout();
+            //console.log(earlyClick, stageTwoState);
+            var highestTimeoutId = setTimeout(100);
             for (var i = 0 ; i < highestTimeoutId ; i++) {
                 clearTimeout(i); 
             }
@@ -50,7 +50,7 @@ const Home = () => {
             let value = (2 - 0.5) + (Math.random() * ((8 - 2) + 1))
             value = Math.ceil(value) * 1000;
             setEarlyClick(true);
-            console.log(value);
+            //console.log(value);
             setTimeout( () => {
                 setBgColor('bisque');
                 setShowMesage('Click ⚡');
