@@ -19,10 +19,8 @@ const Home = () => {
         if (!earlyClick && stageTwoState) {
             let endTime = Date.now();
             let result = (endTime - startTime) / 1000;
-            //updateScore(result);
             setShowMesage('Your Reaction time is ' + result + 's.');
             setShowMesage2('Click to try again 💁‍♂️')
-            //stageTwoState = false;
             setStageTwoState(false)
             //console.log(endTime, startTime, result);
             let s = scores;
@@ -36,11 +34,9 @@ const Home = () => {
             setBgColor('#778899');
             setShowMesage('Too early!');
             setShowMesage2('Click to try again 🤷‍♂️')
-            //earlyClick = false;
             setEarlyClick(false);
             clearTimeout();
             console.log(earlyClick, stageTwoState);
-            // clear the existing timeout
             var highestTimeoutId = setTimeout(" ");
             for (var i = 0 ; i < highestTimeoutId ; i++) {
                 clearTimeout(i); 
