@@ -37,7 +37,7 @@ const Home = () => {
             setEarlyClick(false);
             clearTimeout();
             console.log(earlyClick, stageTwoState);
-            var highestTimeoutId = setTimeout(" ");
+            var highestTimeoutId = setTimeout();
             for (var i = 0 ; i < highestTimeoutId ; i++) {
                 clearTimeout(i); 
             }
