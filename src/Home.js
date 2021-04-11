@@ -45,7 +45,7 @@ const Home = () => {
 
         else if(!earlyClick && !stageTwoState) {
             setBgColor('#F08080');
-            setShowMesage('Wait for color to turn Bisque ⏳');
+            setShowMesage('Wait for the color to turn Bisque ⏳');
             setShowMesage2('');
             let value = (2 - 0.5) + (Math.random() * ((8 - 2) + 1))
             value = Math.ceil(value) * 1000;
