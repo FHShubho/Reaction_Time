@@ -74,8 +74,8 @@ body {
 }
 
 .homescreen {
-  height: 75vh;
-  width: 95%;
+  height: 70vh;
+  width: 70%;
   margin: auto;
   display: flex;
   align-items: center;
